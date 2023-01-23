@@ -14,4 +14,4 @@ bool cmp(const Point<T> &p, const Point<T> &q) {
     return half(p) == half(q) ? cross(p, q) > 0 : half(p) < half(q);
 }
 
-// sort(arr.begin(), arr.end(), cmp());
+// sort(pts.begin(), pts.end(), cmp<T>);
