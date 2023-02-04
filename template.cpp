@@ -9,9 +9,6 @@ typedef vector<ll> vl;
 typedef vector<vector<ll>> vvl;
 #define pb push_back
 #define endl "\n" 
-// String	
-#define lowercase(s) transform((s).begin(), (s).end(), (s).begin(), ::tolower);  
-#define uppercase(s) transform((s).begin(), (s).end(), (s).begin(), ::toupper);
   
 void solve() {
 	
