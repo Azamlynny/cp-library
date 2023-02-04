@@ -9,7 +9,9 @@ typedef vector<ll> vl;
 typedef vector<vector<ll>> vvl;
 #define pb push_back
 #define endl "\n" 
-  
+
+
+
 void solve() {
 	
 }
