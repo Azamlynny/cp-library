@@ -14,11 +14,10 @@ bool cmp(const Point<T> &p, const Point<T> &q) {
     return half(p) == half(q) ? cross(p, q) > 0 : half(p) < half(q);
 }
 
-
-// For concave polygons - radial by counterclockwise and then by distance from origin.
+// Polar sort by counterclockwise, then by distance from origin.
 template<typename T>
 bool cmp2(const Point<T> &p, const Point<T> &q) {
-    return half(p) == half(q) ? (cross(p, q) == 0 ? dist2(p, q) : cross(p, q) > 0) : half(p) < half(q);
+    return half(p) == half(q) ? (cross(p, q) == 0 ? p.mag2() < q.mag2() : cross(p, q) > 0) : half(p) < half(q);
 }
 
 // sort(pts.begin(), pts.end(), cmp<T>);
