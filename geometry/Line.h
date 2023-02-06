@@ -84,6 +84,6 @@ struct Line {
     }
 
     friend ostream& operator << (ostream &os, const Line &l) {
-        return os << "<" << l.a.x << ", " << l.a.y << "> + t<" << l.ab.x << ", " << l.ab.y << ">";
+        return os << "{(" << l.a.x << ", " << l.a.y << ") + (" << l.ab.x << ", " << l.ab.y << ")}";
     }
 };
