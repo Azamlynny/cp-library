@@ -6,6 +6,7 @@ template<typename T>ostream&operator<<(ostream&out,const set<T>&set){out<<'{';fo
 template<typename T>ostream&operator<<(ostream&out,const unordered_set<T>&set){out<<'{';for(auto it=set.begin();it!=set.end();it++){T element=*it;out<<element;if(next(it)!=set.end()){out<<", ";}}return out<<'}';}
 template<typename T>ostream&operator<<(ostream&out,const multiset<T>&set){out<<'{';for(auto it=set.begin();it!=set.end();it++){T element=*it;out<<element;if(next(it)!=set.end()){out<<", ";}}return out<<'}';}
 template<typename T>ostream&operator<<(ostream&out,const unordered_multiset<T>&set){out<<'{';for(auto it=set.begin();it!=set.end();it++){T element=*it;out<<element;if(next(it)!=set.end()){out<<", ";}}return out<<'}';}
+template<typename T1,typename T2>ostream&operator<<(ostream&out,const pair<T1,T2>&pair){return out<<'('<<pair.first<<", "<<pair.second<<')';}
 
 typedef long long ll;
 typedef long double ld;
@@ -15,7 +16,6 @@ typedef vector<ll> vl;
 typedef vector<vector<ll>> vvl;
 #define pb push_back
 #define endl "\n" 
-
 
 
 void solve() {
