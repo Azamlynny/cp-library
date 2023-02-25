@@ -38,3 +38,5 @@ int main() {
     }
     return 0;
 } 
+
+// c++ -O2 -Wall -Wextra -Wshadow
