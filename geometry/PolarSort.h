@@ -10,14 +10,14 @@ bool half(const Point<T> &p) {
 }
 
 template<typename T>
-bool cmp(const Point<T> &p, const Point<T> &q) {
+bool polar_cmp(const Point<T> &p, const Point<T> &q) {
     return half(p) == half(q) ? cross(p, q) > 0 : half(p) < half(q);
 }
 
 // Polar sort by counterclockwise, then by distance from origin.
 template<typename T>
-bool cmp2(const Point<T> &p, const Point<T> &q) {
+bool polarDist_cmp(const Point<T> &p, const Point<T> &q) {
     return half(p) == half(q) ? (cross(p, q) == 0 ? p.mag2() < q.mag2() : cross(p, q) > 0) : half(p) < half(q);
 }
 
-// sort(pts.begin(), pts.end(), cmp<T>);
+// sort(pts.begin(), pts.end(), polar_cmp<T>);
