@@ -18,59 +18,77 @@ struct Line {
         else a = b = Point<T>(numeric_limits<T>::max(), numeric_limits<T>::max());
     }
 
-    friend bool onLine(const Point<T> &p, const Line &l) {
+    friend bool pointOnLine(const Point<T> &p, const Line &l) {
         if (l.a == l.b) return p == l.a;
         return cross((p - l.a), l.ab) == 0;
     }
 
-    friend bool onSegment(const Point<T> &p, const Line &s) {
+    friend bool pointOnSegment(const Point<T> &p, const Line &s) {
         if (s.a == s.b) return p == s.a;
         Point<T> va = s.a - p, vb = s.b - p;
         return cross(va, vb) == 0 && dot(va, vb) <= 0;
     }
 
-    friend bool intersectLine(const Line &s, const Line &t, Point<double> &p) {
+    friend bool findLineIntersect(const Line &s, const Line &t, Point<double> &p) {
         T w = cross(s.ab, t.ab);
         if (w == 0) {
             p = Point<double>(numeric_limits<double>::max(), numeric_limits<double>::max());
-            return onLine(s.a, t);
+            return pointOnLine(s.a, t);
         }
         p = Point<double>(s.ab * (cross(t.a, t.ab) + cross(t.ab, s.a))) / (double) w + s.a;
         return true;
     }
 
-    friend bool intersectSegment(const Line &s, const Line &t, Point<double> &p) {
+    friend bool findSegmentIntersect(const Line &s, const Line &t, Point<double> &p) {
         T w = cross(s.a - s.b, t.a - s.b), x = cross(s.a - s.b, t.b - s.b), y = cross(t.a - t.b, s.a - t.b), z = cross(t.a - t.b, s.b - t.b);
         if ((w > 0) != (x > 0) && (y > 0) != (z > 0))
-            return intersectLine(s, t, p);
-        if (w == 0 && onSegment(t.a, s)) {
+            return findLineIntersect(s, t, p);
+        if (w == 0 && pointOnSegment(t.a, s)) {
             p = t.a;
             return true;
         }
-        if (x == 0 && onSegment(t.b, s)) {
+        if (x == 0 && pointOnSegment(t.b, s)) {
             p = t.b;
             return true;
         }
-        if (y == 0 && onSegment(s.a, t)) {
+        if (y == 0 && pointOnSegment(s.a, t)) {
             p = s.a;
             return true;
         }
-        if (z == 0 && onSegment(s.b, t)) {
+        if (z == 0 && pointOnSegment(s.b, t)) {
             p = s.b;
             return true;
         }
         return false;
     }
 
-    friend double distLine(const Point<T> &p, const Line &l) {
+    friend bool lineIntersect(const Line &s, const Line &t) {
+        T w = cross(s.ab, t.ab);
+        if (w == 0)
+            return pointOnLine(s.a, t);
+        return true;
+    }
+
+    friend bool segmentIntersect(const Line &s, const Line &t) {
+        T w = cross(s.a - s.b, t.a - s.b), x = cross(s.a - s.b, t.b - s.b), y = cross(t.a - t.b, s.a - t.b), z = cross(t.a - t.b, s.b - t.b);
+        if ((w > 0) != (x > 0) && (y > 0) != (z > 0))
+            return linelineIntersect(s, t, p);
+        return ((w == 0 && pointOnSegment(t.a, s)) || (x == 0 && pointOnSegment(t.b, s)) || (y == 0 && pointOnSegment(s.a, t)) || (z == 0 && pointOnSegment(s.b, t)));
+    }
+
+    friend double distPointLine(const Point<T> &p, const Line &l) {
         if (l.a == l.b) return dist(p, l.a);
         return abs(cross(p - l.a, l.ab)) / l.ab.mag();
     }
 
-    friend double distSegment(const Point<T> &p, const Line &s) {
+    friend double distPointSegment(const Point<T> &p, const Line &s) {
         if (dot(p - s.a, s.ab) <= 0) return dist(p, s.a);
         if (dot(p - s.b, s.ab) >= 0) return dist(p, s.b);
-        return distLine(p, s);
+        return distPointLine(p, s);
+    }
+
+    friend double distSegmentSegment(const Line& s, const Line& t) {
+        return min({distPointSegment(s.a, t), distPointSegment(s.b, t), distPointSegment(t.a, s), distPointSegment(t.b, s)});
     }
 
     friend Point<T> proj(const Point<T> &p, const Line &l) {
