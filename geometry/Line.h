@@ -72,7 +72,7 @@ struct Line {
     friend bool segmentIntersect(const Line &s, const Line &t) {
         T w = cross(s.a - s.b, t.a - s.b), x = cross(s.a - s.b, t.b - s.b), y = cross(t.a - t.b, s.a - t.b), z = cross(t.a - t.b, s.b - t.b);
         if ((w > 0) != (x > 0) && (y > 0) != (z > 0))
-            return linelineIntersect(s, t, p);
+            return lineIntersect(s, t);
         return ((w == 0 && pointOnSegment(t.a, s)) || (x == 0 && pointOnSegment(t.b, s)) || (y == 0 && pointOnSegment(s.a, t)) || (z == 0 && pointOnSegment(s.b, t)));
     }
 
