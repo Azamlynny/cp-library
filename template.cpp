@@ -3,8 +3,6 @@ using namespace std;
 
 #ifdef LOCAL
 #include "../cp-library/debug/debug.h"
-#else
-// #define debug(...) 42
 #endif
 
 typedef long long ll;
@@ -15,6 +13,7 @@ typedef vector<ll> vl;
 typedef vector<vector<ll>> vvl;
 #define pb push_back
 #define endl "\n" 
+
 
 
 void solve() {
