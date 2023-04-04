@@ -29,6 +29,7 @@ struct Polygon {
 		if (include_collinear && hull_top.size() == pts.size()) {
 			hull = hull_top;
 			reverse(hull.begin, hull.end());
+			return;
 		}
 
 		for (int i = 0; i < (int) hull_top.size(); i++) 
