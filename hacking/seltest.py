@@ -1,8 +1,10 @@
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
+import subprocess
 from bs4 import BeautifulSoup
 import requests
 import os
+import time
+from tqdm import tqdm
+import sys
 
 contest_id = '1811'
 problem_id = 'F'
@@ -27,7 +29,7 @@ def getCode(submission_url, submission_id, contest_id):
     code = soup.findAll('pre')[0].text
     code = parse(code).replace('\r', '')
     if code != '':
-        print("Create", submission_id + ".cpp")
+        print("Sucessfully fetched", submission_id + ".cpp")
         filewrite = open(directory + '/' + submission_id + '.cpp', 'w')
         filewrite.write(code)
         filewrite.close()
@@ -36,16 +38,13 @@ def getCode(submission_url, submission_id, contest_id):
 if (not os.path.exists(directory)):
     os.makedirs(directory)
 
-options = webdriver.ChromeOptions()
-options.add_experimental_option('excludeSwitches', ['enable-logging'])
-driver = webdriver.Chrome('./chromedriver',options=options)
+fetch = False
 
 page = 1
-while True:
+while fetch:
     url = "http://codeforces.com/contest/"+contest_id+"/status/"+problem_id+"/page/" + str(page) + "?order=BY_ARRIVED_DESC"
     print ("Parsing page:", page)
     try:
-        driver.get(url)
         source = requests.get(url).text
         soup = BeautifulSoup(source, 'html.parser')
         submissions = soup.findAll('a', {'class':'view-source'})
@@ -55,12 +54,55 @@ while True:
             try:
                 getCode(submission_url, submission['submissionid'], contest_id)
             except:
+                print("Failed to fetch:", submission_url)
                 continue
+            time.sleep(2)
 
     except:
         print("Finished parsing on page:", page)
-        # break
 
     page+=1
 
-driver.quit()
+if (not os.path.exists(os.path.join(directory,'compiled'))):
+    os.makedirs(os.path.join(directory,'compiled'))
+
+run = True
+
+if(not run):
+    for file in os.listdir(directory):
+        file_name = os.path.splitext(file)[0]
+        file_ext = os.path.splitext(file)[1]
+        os.system('g++ ' + os.path.join(directory, file_name)+file_ext + ' -o ' + os.path.join(directory,'compiled',file_name) + ' -O2')    
+else:
+    # load input and output
+    with open('input.txt', 'r') as myfile: 
+        test_input = myfile.read()
+    with open('output.txt', 'r') as myfile: 
+        test_output = myfile.read()
+
+    dirs = os.listdir('1811\F\compiled')
+    # print(len(dirs))
+    hackable = []
+
+    for i in tqdm(range(len(dirs))):
+        file = dirs[i]
+        # print(os.path.splitext(file)[0])
+        cmd = 'more input.txt | 1811\F\compiled\\' + file
+        # print (cmd)
+        test = subprocess.check_output(cmd, shell=True)
+        # os.system(cmd)
+        # print(test)
+        test = test.lower()
+        # test = test[4:3]
+        if ('yes' in str(test)):
+            hackable.append(os.path.splitext(file)[0])
+            # print(os.path.splitext(file)[0])
+        # time.sleep(0.5)       
+        # lines = sys.stdin.readline()
+        # print("lines", lines)
+
+    
+    for h in hackable:
+        print(h)
+        
+        
