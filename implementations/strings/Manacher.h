@@ -7,7 +7,7 @@
 // Pasteable: Full 
 
 vector<vector<int>> manacher(const string& s) {
-	int n = s.size();
+    int n = s.size();
     vector<vector<int>> pal {vector<int>(n+1), vector<int>(n)};
     for (int z = 0; z < 2; z++) {
         for (int i = 0, l = 0, r = 0; i < n; i++) {
