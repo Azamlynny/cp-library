@@ -18,8 +18,8 @@ long long power (long long a, long long b) {
 }
 
 // uses Fermat's little theorem, works when modulus is prime
-int inverse(long long a) {
-    int ret = 1, b = MOD - 2;
+long long inverse(long long a) {
+    long long ret = 1, b = MOD - 2;
     while (b > 0) {
         if (b & 1)
             ret = (ret * a) % MOD;
@@ -30,7 +30,7 @@ int inverse(long long a) {
 }
 
 // uses extended Euclidean algorithm
-int inverseEuclidean(long long a) {
+long long inverseEuclidean(long long a) {
     long long m = MOD, x = 1, y = 0;
     while (a > 1) {
         long long q = a / m, t = m;
