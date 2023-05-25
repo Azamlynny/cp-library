@@ -1,6 +1,6 @@
 // Description: Finds n-th Fibonnaci number using matrix exponentiation
 // Source: https://cp-algorithms.com/algebra/fibonacci-numbers.html#closed-form-expression
-// Verification https://cses.fi/problemset/task/1722
+// Verification: https://cses.fi/problemset/task/1722
 // Time: O(log n)
 // Pasteable: Full 
 
