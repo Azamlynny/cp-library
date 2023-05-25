@@ -1,0 +1,191 @@
+[General]
+tab_width=4
+geometry=@Rect(1760 38 800 600)
+editor_font=@Variant(\0\0\0@\0\0\0\x10\0\x43\0o\0n\0s\0o\0l\0\x61\0s@(\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10)
+use_custom_application_font=false
+custom_application_font=@Variant(\0\0\0@\0\0\0\x1c\0M\0S\0 \0S\0h\0\x65\0l\0l\0 \0\x44\0l\0g\0 \0\x32@ \0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10)
+default_language=C++
+format_on_manual_save=false
+format_on_auto_save=false
+editor_theme=Monokai
+detached_run_terminal_program=xterm
+detached_run_terminal_arguments=-e
+auto_complete_parentheses=true
+auto_remove_parentheses=true
+tab_jump_out_parentheses=false
+auto_indent=true
+auto_save=true
+auto_save_interval=1000
+auto_save_interval_type=After the last modification
+wrap_text=false
+beta=false
+replace_tabs=false
+save_tests=false
+maximized_window=true
+check_update=false
+opacity=100
+view_mode=split
+splitter_size=@ByteArray()
+right_splitter_size=@ByteArray(\0\0\0\xff\0\0\0\x1\0\0\0\x2\0\0\x1\xaf\0\0\x3\x12\x1\xff\xff\xff\xff\x1\0\0\0\x2\0)
+force_close=false
+show_compile_and_run_only=false
+display_eoln_in_diff=false
+save_faster=false
+default_time_limit=40000
+output_length_limit=500000
+output_display_length_limit=50000
+message_length_limit=20000
+html_diff_viewer_length_limit=50000
+open_file_length_limit=20000
+display_test_case_length_limit=500000
+testcases_matching_rules=@Variant(\0\0\0\v\0\0\0\x2\0\0\0\x10\0(\0.\0*\0)\0\\\0.\0i\0n\0\0\0\f\0\\\0\x31\0.\0\x61\0n\0s), @Variant(\0\0\0\v\0\0\0\x2\0\0\0\x10\0(\0.\0*\0)\0\\\0.\0i\0n\0\0\0\f\0\\\0\x31\0.\0o\0u\0t)
+input_file_save_path=./${basename}_${1-index}.in
+answer_file_save_path=./${basename}_${1-index}.ans
+default_file_paths_for_problem_urls=@Variant(\0\0\0\t\0\0\0\x1\0\0\0\v\0\0\0\x2\0\0\0|\0h\0t\0t\0p\0s\0:\0/\0/\0\x63\0o\0\x64\0\x65\0\x66\0o\0r\0\x63\0\x65\0s\0.\0\x63\0o\0m\0/\0g\0r\0o\0u\0p\0/\0q\0O\0Q\0z\0\x32\0\x46\0r\0\x43\0\x62\0i\0/\0\x63\0o\0n\0t\0\x65\0s\0t\0/\0\x31\0\x33\0\x33\0\x31\0/\0p\0r\0o\0\x62\0l\0\x65\0m\0/\0\x41\0\0\0\0)
+test_cases_font=@Variant(\0\0\0@\0\0\0\x10\0\x43\0o\0n\0s\0o\0l\0\x61\0s@\"\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10)
+extra_bottom_margin=true
+message_logger_font=@Variant(\0\0\0@\0\0\0\x10\0\x43\0o\0n\0s\0o\0l\0\x61\0s@\"\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10)
+save_file_on_compilation=true
+save_file_on_execution=false
+restore_old_problem_url=false
+open_old_file_for_old_problem_url=false
+locale=system
+ui_style=Auto Fusion
+run_on_empty_testcase=false
+check_on_testcases_with_empty_output=false
+test_case_maximum_height=300
+auto_load_external_changes_if_no_unsaved_modification=true
+ask_for_loading_external_changes=true
+recent_files=C:/Users/Azaml/workspace/cp/contest/Untitled-1.cpp, C:/Users/Azaml/workspace/cp/contest/1111.cpp, C:/Users/Azaml/workspace/cp/contest/1722.cpp, C:/Users/Azaml/workspace/cp/contest/F.cpp, C:/Users/Azaml/workspace/cp/contest/E.cpp, C:/Users/Azaml/workspace/cp/contest/D.cpp, C:/Users/Azaml/workspace/cp/contest/C.cpp, C:/Users/Azaml/workspace/cp/contest/B.cpp, C:/Users/Azaml/workspace/cp/contest/0.cpp, C:/Users/Azaml/workspace/cp/contest/A.cpp, C:/Users/Azaml/workspace/cp/contest/G.cpp, C:/Users/Azaml/workspace/cp/contest/J.cpp, C:/Users/Azaml/workspace/cp/contest/I.cpp, C:/Users/Azaml/workspace/cp/contest/D1.cpp, C:/Users/Azaml/workspace/cp/contest/1130.cpp, C:/Users/Azaml/workspace/cp/contest/d2.cpp, C:/Users/Azaml/workspace/cp/contest/ahiloUntitled-1.cpp, C:/Users/Azaml/workspace/cp/contest/A1.cpp, C:/Users/Azaml/workspace/cp/contest/K.cpp, C:/Users/Azaml/workspace/cp/contest/0000000000cad9c1.cpp
+number_of_problems_in_contest=8
+first_time_user=false
+show_only_monospaced_font=true
+total_usage_time=2972185
+promotion_dialog_shown=true
+file_problem_binding=C:/Users/Azaml/Downloads/maps22.yetanotherdivisorproblem.cpp, https://maps22.kattis.com/contests/maps22/problems/maps22.yetanotherdivisorproblem, C:/Users/Azaml/workspace/cp/contest/0.cpp, https://codeforces.com/contest/1837/problem/0, C:/Users/Azaml/workspace/cp/contest/0000000000aa8e9c.cpp, https://codingcompetitions.withgoogle.com/codejam/round/0000000000877ba5/0000000000aa8e9c, C:/Users/Azaml/workspace/cp/contest/0000000000cad086.cpp, https://codingcompetitions.withgoogle.com/codejam/round/0000000000c95b94/0000000000cad086, C:/Users/Azaml/workspace/cp/contest/0000000000cad7cf.cpp, https://codingcompetitions.withgoogle.com/codejam/round/0000000000c95b94/0000000000cad7cf, C:/Users/Azaml/workspace/cp/contest/0000000000cad9c1.cpp, https://codingcompetitions.withgoogle.com/codejam/round/0000000000c95b94/0000000000cad9c1, C:/Users/Azaml/workspace/cp/contest/1072.cpp, https://cses.fi/problemset/task/1072, C:/Users/Azaml/workspace/cp/contest/1073.cpp, https://cses.fi/problemset/task/1073, C:/Users/Azaml/workspace/cp/contest/1076.cpp, https://cses.fi/problemset/task/1076, C:/Users/Azaml/workspace/cp/contest/1077.cpp, https://cses.fi/problemset/task/1077, C:/Users/Azaml/workspace/cp/contest/1079.cpp, https://cses.fi/problemset/task/1079, C:/Users/Azaml/workspace/cp/contest/1080.cpp, https://cses.fi/problemset/task/1080, C:/Users/Azaml/workspace/cp/contest/1082.cpp, https://cses.fi/problemset/task/1082, C:/Users/Azaml/workspace/cp/contest/1083.cpp, https://cses.fi/problemset/task/1083, C:/Users/Azaml/workspace/cp/contest/1091.cpp, https://cses.fi/problemset/task/1091, C:/Users/Azaml/workspace/cp/contest/1093.cpp, https://cses.fi/problemset/task/1093, C:/Users/Azaml/workspace/cp/contest/1095.cpp, https://cses.fi/problemset/task/1095, C:/Users/Azaml/workspace/cp/contest/1096.cpp, https://cses.fi/problemset/task/1096, C:/Users/Azaml/workspace/cp/contest/1097.cpp, https://cses.fi/problemset/task/1097, C:/Users/Azaml/workspace/cp/contest/1098.cpp, https://cses.fi/problemset/task/1098, C:/Users/Azaml/workspace/cp/contest/1111.cpp, https://cses.fi/problemset/task/1111, C:/Users/Azaml/workspace/cp/contest/1113.cpp, https://cses.fi/problemset/task/1113, C:/Users/Azaml/workspace/cp/contest/1130.cpp, https://cses.fi/problemset/task/1130, C:/Users/Azaml/workspace/cp/contest/1131.cpp, https://cses.fi/problemset/task/1131, C:/Users/Azaml/workspace/cp/contest/1132.cpp, https://cses.fi/problemset/task/1132, C:/Users/Azaml/workspace/cp/contest/1135.cpp, https://cses.fi/problemset/task/1135, C:/Users/Azaml/workspace/cp/contest/1141.cpp, https://cses.fi/problemset/task/1141, C:/Users/Azaml/workspace/cp/contest/1146.cpp, https://cses.fi/problemset/task/1146/, C:/Users/Azaml/workspace/cp/contest/1149.cpp, https://cses.fi/problemset/task/1149, C:/Users/Azaml/workspace/cp/contest/1158.cpp, https://cses.fi/problemset/task/1158, C:/Users/Azaml/workspace/cp/contest/1163.cpp, https://cses.fi/problemset/task/1163, C:/Users/Azaml/workspace/cp/contest/1164.cpp, https://cses.fi/problemset/task/1164, C:/Users/Azaml/workspace/cp/contest/1188.cpp, https://cses.fi/problemset/task/1188, C:/Users/Azaml/workspace/cp/contest/1194.cpp, https://cses.fi/problemset/task/1194, C:/Users/Azaml/workspace/cp/contest/1195.cpp, https://cses.fi/problemset/task/1195, C:/Users/Azaml/workspace/cp/contest/1196.cpp, https://cses.fi/problemset/task/1196, C:/Users/Azaml/workspace/cp/contest/1197.cpp, https://cses.fi/problemset/task/1197, C:/Users/Azaml/workspace/cp/contest/1202.cpp, https://cses.fi/problemset/task/1202, C:/Users/Azaml/workspace/cp/contest/1620.cpp, https://cses.fi/problemset/task/1620, C:/Users/Azaml/workspace/cp/contest/1624.cpp, https://cses.fi/problemset/task/1624, C:/Users/Azaml/workspace/cp/contest/1625.cpp, https://cses.fi/problemset/task/1625, C:/Users/Azaml/workspace/cp/contest/1628.cpp, https://cses.fi/problemset/task/1628, C:/Users/Azaml/workspace/cp/contest/1630.cpp, https://cses.fi/problemset/task/1630, C:/Users/Azaml/workspace/cp/contest/1631.cpp, https://cses.fi/problemset/task/1631, C:/Users/Azaml/workspace/cp/contest/1632.cpp, https://cses.fi/problemset/task/1632, C:/Users/Azaml/workspace/cp/contest/1636.cpp, https://cses.fi/problemset/task/1636, C:/Users/Azaml/workspace/cp/contest/1639.cpp, https://cses.fi/problemset/task/1639, C:/Users/Azaml/workspace/cp/contest/1641.cpp, https://cses.fi/problemset/task/1641, C:/Users/Azaml/workspace/cp/contest/1642.cpp, https://cses.fi/problemset/task/1642, C:/Users/Azaml/workspace/cp/contest/1645.cpp, https://cses.fi/problemset/task/1645, C:/Users/Azaml/workspace/cp/contest/1646.cpp, https://cses.fi/problemset/task/1646, C:/Users/Azaml/workspace/cp/contest/1647.cpp, https://cses.fi/problemset/task/1647, C:/Users/Azaml/workspace/cp/contest/1648.cpp, https://cses.fi/problemset/task/1648, C:/Users/Azaml/workspace/cp/contest/1649.cpp, https://cses.fi/problemset/task/1649, C:/Users/Azaml/workspace/cp/contest/1653.cpp, https://cses.fi/problemset/task/1653, C:/Users/Azaml/workspace/cp/contest/1660.cpp, https://cses.fi/problemset/task/1660, C:/Users/Azaml/workspace/cp/contest/1661.cpp, https://cses.fi/problemset/task/1661, C:/Users/Azaml/workspace/cp/contest/1662.cpp, https://cses.fi/problemset/task/1662, C:/Users/Azaml/workspace/cp/contest/1666.cpp, https://cses.fi/problemset/task/1666, C:/Users/Azaml/workspace/cp/contest/1667.cpp, https://cses.fi/problemset/task/1667, C:/Users/Azaml/workspace/cp/contest/1668.cpp, https://cses.fi/problemset/task/1668, C:/Users/Azaml/workspace/cp/contest/1669.cpp, https://cses.fi/problemset/task/1669, C:/Users/Azaml/workspace/cp/contest/1672.cpp, https://cses.fi/problemset/task/1672, C:/Users/Azaml/workspace/cp/contest/1673.cpp, https://cses.fi/problemset/task/1673, C:/Users/Azaml/workspace/cp/contest/1674.cpp, https://cses.fi/problemset/task/1674, C:/Users/Azaml/workspace/cp/contest/1675.cpp, https://cses.fi/problemset/task/1675, C:/Users/Azaml/workspace/cp/contest/1676.cpp, https://cses.fi/problemset/task/1676, C:/Users/Azaml/workspace/cp/contest/1678.cpp, https://cses.fi/problemset/task/1678, C:/Users/Azaml/workspace/cp/contest/1681.cpp, https://cses.fi/problemset/task/1681, C:/Users/Azaml/workspace/cp/contest/1682.cpp, https://cses.fi/problemset/task/1682, C:/Users/Azaml/workspace/cp/contest/1689.cpp, https://cses.fi/problemset/task/1689, C:/Users/Azaml/workspace/cp/contest/1692.cpp, https://cses.fi/problemset/task/1692, C:/Users/Azaml/workspace/cp/contest/1693.cpp, https://cses.fi/problemset/task/1693, C:/Users/Azaml/workspace/cp/contest/1700.cpp, https://cses.fi/problemset/task/1700, C:/Users/Azaml/workspace/cp/contest/1706.cpp, https://cses.fi/problemset/task/1706, C:/Users/Azaml/workspace/cp/contest/1707.cpp, https://cses.fi/problemset/task/1707, C:/Users/Azaml/workspace/cp/contest/1713.cpp, https://cses.fi/problemset/task/1713, C:/Users/Azaml/workspace/cp/contest/1715.cpp, https://cses.fi/problemset/task/1715, C:/Users/Azaml/workspace/cp/contest/1717.cpp, https://cses.fi/problemset/task/1717, C:/Users/Azaml/workspace/cp/contest/1722.cpp, https://cses.fi/problemset/task/1722, C:/Users/Azaml/workspace/cp/contest/1723.cpp, https://cses.fi/problemset/task/1723, C:/Users/Azaml/workspace/cp/contest/1726.cpp, https://cses.fi/problemset/task/1726, C:/Users/Azaml/workspace/cp/contest/1730.cpp, https://cses.fi/problemset/task/1730, C:/Users/Azaml/workspace/cp/contest/1731.cpp, https://cses.fi/problemset/task/1731, C:/Users/Azaml/workspace/cp/contest/1732.cpp, https://cses.fi/problemset/task/1732, C:/Users/Azaml/workspace/cp/contest/1740.cpp, https://cses.fi/problemset/task/1740, C:/Users/Azaml/workspace/cp/contest/1743.cpp, https://cses.fi/problemset/task/1743, C:/Users/Azaml/workspace/cp/contest/1744.cpp, https://cses.fi/problemset/task/1744, C:/Users/Azaml/workspace/cp/contest/1745.cpp, https://cses.fi/problemset/task/1745, C:/Users/Azaml/workspace/cp/contest/1746.cpp, https://cses.fi/problemset/task/1746, C:/Users/Azaml/workspace/cp/contest/1750.cpp, https://cses.fi/problemset/task/1750, C:/Users/Azaml/workspace/cp/contest/1753.cpp, https://cses.fi/problemset/task/1753, C:/Users/Azaml/workspace/cp/contest/2064.cpp, https://cses.fi/problemset/task/2064, C:/Users/Azaml/workspace/cp/contest/2136.cpp, https://cses.fi/problemset/task/2136, C:/Users/Azaml/workspace/cp/contest/2162.cpp, https://cses.fi/problemset/task/2162, C:/Users/Azaml/workspace/cp/contest/2163.cpp, https://cses.fi/problemset/task/2163, C:/Users/Azaml/workspace/cp/contest/2164.cpp, https://cses.fi/problemset/task/2164, C:/Users/Azaml/workspace/cp/contest/2165.cpp, https://cses.fi/problemset/task/2165, C:/Users/Azaml/workspace/cp/contest/2168.cpp, https://cses.fi/problemset/task/2168, C:/Users/Azaml/workspace/cp/contest/2189.cpp, https://cses.fi/problemset/task/2189, C:/Users/Azaml/workspace/cp/contest/2190.cpp, https://cses.fi/problemset/task/2190, C:/Users/Azaml/workspace/cp/contest/2191.cpp, https://cses.fi/problemset/task/2191, C:/Users/Azaml/workspace/cp/contest/2195.cpp, https://cses.fi/problemset/task/2195, C:/Users/Azaml/workspace/cp/contest/2205.cpp, https://cses.fi/problemset/task/2205, C:/Users/Azaml/workspace/cp/contest/2216.cpp, https://cses.fi/problemset/task/2216, C:/Users/Azaml/workspace/cp/contest/2217.cpp, https://cses.fi/problemset/task/2217, C:/Users/Azaml/workspace/cp/contest/2413.cpp, https://cses.fi/problemset/task/2413, C:/Users/Azaml/workspace/cp/contest/2419.cpp, https://cses.fi/problemset/task/2419, C:/Users/Azaml/workspace/cp/contest/2425.cpp, https://cses.fi/problemset/task/2425, C:/Users/Azaml/workspace/cp/contest/2428.cpp, https://cses.fi/problemset/task/2428, C:/Users/Azaml/workspace/cp/contest/2431.cpp, https://cses.fi/problemset/task/2431, C:/Users/Azaml/workspace/cp/contest/A.cpp, https://codeforces.com/contest/374/problem/A, C:/Users/Azaml/workspace/cp/contest/A1.cpp, https://codeforces.com/contest/1718/problem/A1, C:/Users/Azaml/workspace/cp/contest/A2.cpp, https://codeforces.com/contest/1786/problem/A2, C:/Users/Azaml/workspace/cp/contest/B.cpp, https://codeforces.com/contest/1837/problem/B, C:/Users/Azaml/workspace/cp/contest/C.cpp, https://codeforces.com/contest/1837/problem/C, C:/Users/Azaml/workspace/cp/contest/C1.cpp, https://codeforces.com/contest/1800/problem/C1, C:/Users/Azaml/workspace/cp/contest/C2.cpp, https://codeforces.com/contest/1800/problem/C2, C:/Users/Azaml/workspace/cp/contest/D.cpp, https://codeforces.com/contest/1837/problem/D, C:/Users/Azaml/workspace/cp/contest/D1.cpp, https://codeforces.com/contest/1828/problem/D1, C:/Users/Azaml/workspace/cp/contest/E.cpp, https://codeforces.com/contest/1837/problem/E, C:/Users/Azaml/workspace/cp/contest/E1.cpp, https://codeforces.com/contest/1800/problem/E1, C:/Users/Azaml/workspace/cp/contest/E2.cpp, https://codeforces.com/contest/1800/problem/E2, C:/Users/Azaml/workspace/cp/contest/F.cpp, https://codeforces.com/contest/1837/problem/F, C:/Users/Azaml/workspace/cp/contest/G.cpp, https://codeforces.com/contest/1833/problem/G, C:/Users/Azaml/workspace/cp/contest/G1.cpp, https://codeforces.com/contest/1791/problem/G1, C:/Users/Azaml/workspace/cp/contest/G2#.cpp, https://codeforces.com/contest/1791/problem/G2#, C:/Users/Azaml/workspace/cp/contest/G2.cpp, https://codeforces.com/contest/1811/problem/G2, C:/Users/Azaml/workspace/cp/contest/H.cpp, https://codeforces.com/group/j7YsoIFtw4/contest/433247/problem/H, C:/Users/Azaml/workspace/cp/contest/H1.cpp, https://codeforces.com/contest/1676/problem/H1, C:/Users/Azaml/workspace/cp/contest/H2.cpp, https://codeforces.com/contest/1676/problem/H2, C:/Users/Azaml/workspace/cp/contest/I.cpp, https://codeforces.com/gym/444144/problem/I, C:/Users/Azaml/workspace/cp/contest/J.cpp, https://codeforces.com/gym/444144/problem/J, C:/Users/Azaml/workspace/cp/contest/K.cpp, https://codeforces.com/contest/1765/problem/K, C:/Users/Azaml/workspace/cp/contest/L.cpp, https://codeforces.com/group/j7YsoIFtw4/contest/423355/problem/L, C:/Users/Azaml/workspace/cp/contest/M.cpp, https://codeforces.com/group/j7YsoIFtw4/contest/103055/problem/M, C:/Users/Azaml/workspace/cp/contest/N.cpp, https://codeforces.com/group/j7YsoIFtw4/contest/424133/problem/N, C:/Users/Azaml/workspace/cp/contest/S.cpp, https://codeforces.com/group/j7YsoIFtw4/contest/363269/problem/S, C:/Users/Azaml/workspace/cp/contest/].cpp, https://codingcompetitions.withgoogle.com/codejam/round/0000000000c9607c/0000000000cad7d1, C:/Users/Azaml/workspace/cp/contest/abc236_a.cpp, https://atcoder.jp/contests/abc236/tasks/abc236_a, C:/Users/Azaml/workspace/cp/contest/abc236_b.cpp, https://atcoder.jp/contests/abc236/tasks/abc236_b, C:/Users/Azaml/workspace/cp/contest/abc236_c.cpp, https://atcoder.jp/contests/abc236/tasks/abc236_c, C:/Users/Azaml/workspace/cp/contest/abc236_d.cpp, https://atcoder.jp/contests/abc236/tasks/abc236_d, C:/Users/Azaml/workspace/cp/contest/abc236_e.cpp, https://atcoder.jp/contests/abc236/tasks/abc236_e, C:/Users/Azaml/workspace/cp/contest/abc236_h.cpp, https://atcoder.jp/contests/abc236/tasks/abc236_h, C:/Users/Azaml/workspace/cp/contest/beastbullies.cpp, https://naq22.kattis.com/contests/naq22/problems/beastbullies, C:/Users/Azaml/workspace/cp/contest/birthdaygift.cpp, https://naq22.kattis.com/contests/naq22/problems/birthdaygift, C:/Users/Azaml/workspace/cp/contest/friday.cpp, "https://train.usaco.org/usacoprob2?a=ZTOFZndqf67&S=friday", C:/Users/Azaml/workspace/cp/contest/ghostleg.cpp, https://naq22.kattis.com/contests/naq22/problems/ghostleg, C:/Users/Azaml/workspace/cp/contest/gift1.cpp, "https://train.usaco.org/usacoprob2?a=ZTOFZndqf67&S=gift1", C:/Users/Azaml/workspace/cp/contest/maps22.almostsorted.cpp, https://maps22.kattis.com/contests/maps22/problems/maps22.almostsorted, C:/Users/Azaml/workspace/cp/contest/maps22.greedypolygons2.cpp, https://maps22.kattis.com/contests/maps22/problems/maps22.greedypolygons2, C:/Users/Azaml/workspace/cp/contest/maps22.pandemicshopping.cpp, https://maps22.kattis.com/contests/maps22/problems/maps22.pandemicshopping, C:/Users/Azaml/workspace/cp/contest/maps22.parentgap.cpp, https://maps22.kattis.com/contests/maps22/problems/maps22.parentgap, C:/Users/Azaml/workspace/cp/contest/maps22.taxidriver.cpp, https://maps22.kattis.com/contests/maps22/problems/maps22.taxidriver, C:/Users/Azaml/workspace/cp/contest/mazeman.cpp, https://naq22.kattis.com/contests/naq22/problems/mazeman, C:/Users/Azaml/workspace/cp/contest/naq21.alienintegers.cpp, https://naq21.kattis.com/problems/naq21.alienintegers, C:/Users/Azaml/workspace/cp/contest/naq21.commonfactors.cpp, https://naq21.kattis.com/problems/naq21.commonfactors, C:/Users/Azaml/workspace/cp/contest/naq21.mrcodeformatgrader.cpp, https://naq21.kattis.com/problems/naq21.mrcodeformatgrader, C:/Users/Azaml/workspace/cp/contest/naq21.mult.cpp, https://naq21.kattis.com/problems/naq21.mult, C:/Users/Azaml/workspace/cp/contest/naq21.pizzaparty.cpp, https://naq21.kattis.com/problems/naq21.pizzaparty, C:/Users/Azaml/workspace/cp/contest/naq21.stampcombinations.cpp, https://naq21.kattis.com/problems/naq21.stampcombinations, C:/Users/Azaml/workspace/cp/contest/naq21.tictacstate.cpp, https://naq21.kattis.com/problems/naq21.tictacstate, C:/Users/Azaml/workspace/cp/contest/platformplacing.cpp, https://naq22.kattis.com/contests/naq22/problems/platformplacing, C:/Users/Azaml/workspace/cp/contest/ride.cpp, "https://train.usaco.org/usacoprob2?a=ZTOFZndqf67&S=ride", C:/Users/Azaml/workspace/cp/contest/roomevacuation.cpp, https://naq22.kattis.com/contests/naq22/problems/roomevacuation, C:/Users/Azaml/workspace/cp/contest/smallestcalculatedvalue.cpp, https://naq22.kattis.com/contests/naq22/problems/smallestcalculatedvalue, C:/Users/Azaml/workspace/cp/contest/tollroads.cpp, https://naq22.kattis.com/contests/naq22/problems/tollroads, C:/Users/Azaml/workspace/cpp/A.cpp, https://codeforces.com/problemset/problem/486/A
+
+[clang_format]
+program=clang-format
+arguments=
+style=BasedOnStyle: Google
+
+[yapf]
+program=python
+arguments=-m yapf
+style="[style]\nbased_on_style = pep8"
+
+[cpp]
+template_path=C:\\Users\\Azaml\\workspace\\cp\\cp-library\\template.cpp
+template_cursor_position_regex=solve\\(\\)
+template_cursor_position_offset_type=end
+template_cursor_position_offset_characters=4
+compile_command="g++ -std=c++2a -O2 -Wall -Wextra -Wshadow -D_GLIBCXX_DEBUG -DLOCAL -DONLINE_JUDGE"
+output_path=${tmpdir}/${basename}
+run_arguments=
+parentheses=@Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0(\0\0\0\x2\0\0\0)\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0{\0\0\0\x2\0\0\0}\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0[\0\0\0\x2\0\0\0]\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0\"\0\0\0\x2\0\0\0\"\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0'\0\0\0\x2\0\0\0'\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1)
+compiler_output_codec=UTF-8
+
+[java]
+template_path=
+compile_command=javac
+run_arguments=
+run_command=java
+class_name=Main
+output_path=${tmpdir}
+template_cursor_position_regex=
+template_cursor_position_offset_type=end
+template_cursor_position_offset_characters=0
+parentheses=@Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0(\0\0\0\x2\0\0\0)\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0{\0\0\0\x2\0\0\0}\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0[\0\0\0\x2\0\0\0]\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0\"\0\0\0\x2\0\0\0\"\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0'\0\0\0\x2\0\0\0'\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1)
+compiler_output_codec=UTF-8
+
+[python]
+template_path=
+template_cursor_position_regex=
+template_cursor_position_offset_type=end
+template_cursor_position_offset_characters=0
+run_arguments=
+run_command=python
+parentheses=@Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0(\0\0\0\x2\0\0\0)\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0{\0\0\0\x2\0\0\0}\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0[\0\0\0\x2\0\0\0]\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0\"\0\0\0\x2\0\0\0\"\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0'\0\0\0\x2\0\0\0'\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1)
+
+[competitive_companion]
+enable=true
+connection_port=10045
+open_new_tab=true
+set_time_limit_for_tab=true
+head_comments=Problem: ${json.name}\nContest: ${json.group}\nURL: ${json.url}\nMemory Limit: ${json.memoryLimit} MB\nTime Limit: ${json.timeLimit} ms
+head_comments_time_format=yyyy-MM-dd HH:mm:ss
+head_comments_powered_by_cp_editor=false
+
+[hotkey]
+format=
+kill=Esc
+compile_run=F2
+run=F1
+compile=F3
+change_view_mode=Ctrl+G
+snippets=Ctrl+`
+
+[hot_exit]
+enable=true
+auto_save=false
+auto_save_interval=20000
+
+[cf]
+path=C:/Users/Azaml/workspace/cp/cf.exe
+show_toast_messages=false
+
+[lsp]
+path_cpp=clangd
+path_java=
+path_python=python
+use_linting_cpp=false
+use_linting_java=false
+use_linting_python=false
+use_autocomplete_cpp=false
+use_autocomplete_java=false
+use_autocomplete_python=false
+delay_cpp=2000
+delay_java=2000
+delay_python=2000
+args_cpp=
+args_java=
+args_python=-m pyls
+
+[Language%20Config]
+C%2B%2B\snippet\_f1n="for(int i = 0; i < n; i++) {\n\t\n\t}"
+C%2B%2B\snippet\_f2yx="for(int y = 0; y < n; y++) {\n\t\tfor(int x = 0; x < m; x++) {\n\t\t\n\t\t}\n\t}"
+C%2B%2B\snippet\_narr="int n;\n\tcin >> n;\n\tvl arr(n);\n\tfor(int i = 0; i < n; i++){\n\t\tcin >> arr[i];\n\t}"
+C%2B%2B\snippet\bfs="set<ll> vis;\nqueue<pair<ll,ll>> q; // {t, v}\nq.push({0,1});\n\nwhile(!q.empty()) {\n\tll t = q.front().first;\n\tll v = q.front().second;\t\n\tq.pop();\n\t\n\tfor (ll u : adj[v]) {\n\t\tif(!vis.count(u)) {\n\t\t\tvis.insert(u);\n\t\t\tq.push({t+1,u});\n\t\t}\n\t}\n}"
+C%2B%2B\snippet\dag="int n;\n\tcin >> n;\n\t\n\tvvl adj(n+1);\n\t\n\tfor(int i = 0; i < n; i++) {\n\t\tll u,v;\n\t\tcin >> u >> v;\n\t\tadj[u].pb(v);\n\t\t// adj[v].pb(u);\n\t}"
+C%2B%2B\snippet\dfs="set<ll> vis;\n\nvoid dfs(vvl& adj, ll v) {\n\tvis.insert(v);\n\t\n\tfor (ll u : adj[v]) {\n\t\tif (!vis.count(u)) {\n\t\t\tdfs(adj, u);\n\t\t}\n\t}\n}"
+
+[proxy]
+enabled=true
+type=System
+host_name=127.0.0.1
+port=1080
+user=
+password=
+
+[default_path]
+names_and_paths=@Variant(\0\0\0\v\0\0\0\x2\0\0\0\xe\0\x63\0h\0\x65\0\x63\0k\0\x65\0r\0\0\0\x46\0\x43\0:\0/\0U\0s\0\x65\0r\0s\0/\0\x41\0z\0\x61\0m\0l\0/\0w\0o\0r\0k\0s\0p\0\x61\0\x63\0\x65\0/\0\x63\0p\0/\0\x63\0o\0n\0t\0\x65\0s\0t), @Variant(\0\0\0\v\0\0\0\x2\0\0\0\xe\0\x63\0o\0n\0t\0\x65\0s\0t\0\0\0\x46\0\x43\0:\0/\0U\0s\0\x65\0r\0s\0/\0\x41\0z\0\x61\0m\0l\0/\0w\0o\0r\0k\0s\0p\0\x61\0\x63\0\x65\0/\0\x63\0p\0/\0\x63\0o\0n\0t\0\x65\0s\0t), @Variant(\0\0\0\v\0\0\0\x2\0\0\0\b\0\x66\0i\0l\0\x65\0\0\0\x46\0\x43\0:\0/\0U\0s\0\x65\0r\0s\0/\0\x41\0z\0\x61\0m\0l\0/\0w\0o\0r\0k\0s\0p\0\x61\0\x63\0\x65\0/\0\x63\0p\0/\0\x63\0o\0n\0t\0\x65\0s\0t), @Variant(\0\0\0\v\0\0\0\x2\0\0\0\x10\0s\0\x65\0t\0t\0i\0n\0g\0s\0\0\0\0), @Variant(\0\0\0\v\0\0\0\x2\0\0\0\x10\0s\0n\0i\0p\0p\0\x65\0t\0s\0\0\0^\0\x43\0:\0/\0U\0s\0\x65\0r\0s\0/\0\x41\0z\0\x61\0m\0l\0/\0w\0o\0r\0k\0s\0p\0\x61\0\x63\0\x65\0/\0\x63\0p\0/\0\x63\0p\0-\0l\0i\0\x62\0r\0\x61\0r\0y\0/\0\x63\0p\0\x65\0\x64\0i\0t\0o\0r), @Variant(\0\0\0\v\0\0\0\x2\0\0\0\x10\0t\0\x65\0s\0t\0\x63\0\x61\0s\0\x65\0\0\0\x46\0\x43\0:\0/\0U\0s\0\x65\0r\0s\0/\0\x41\0z\0\x61\0m\0l\0/\0w\0o\0r\0k\0s\0p\0\x61\0\x63\0\x65\0/\0\x63\0p\0/\0\x63\0o\0n\0t\0\x65\0s\0t)
+action\open_file\uses=${file}
+action\open_file\changes="file, testcase, checker"
+action\save_file\uses=${file}
+action\save_file\changes="file, testcase, checker"
+action\open_contest\uses=${contest}
+action\open_contest\changes="contest, file, testcase, checker"
+action\load_single_test_case\uses=${testcase}
+action\load_single_test_case\changes=testcase
+action\add_pairs_of_test_cases\uses=${testcase}
+action\add_pairs_of_test_cases\changes=testcase
+action\save_test_case_to_a_file\uses=${testcase}
+action\save_test_case_to_a_file\changes=testcase
+action\custom_checker\uses=${checker}
+action\custom_checker\changes=checker
+action\export_and_import_settings\uses=${settings}
+action\export_and_import_settings\changes=settings
+action\export_and_load_session\uses=${session}
+action\export_and_load_session\changes=session
+action\extract_and_load_snippets\uses=${snippets}
+action\extract_and_load_snippets\changes=snippets
