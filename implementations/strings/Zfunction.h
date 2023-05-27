@@ -1,6 +1,6 @@
 // Description: Computes Z-array: longest substring of s that begins at position i and ia a prefix of s
 // Source: https://cses.fi/book/book.pdf
-// Verification: https://cses.fi/problemset/task/1753/
+// Verification: https://cses.fi/problemset/task/2107/
 // Time: O(n)
 // Pasteable: Full 
 
