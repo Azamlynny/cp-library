@@ -1,16 +1,15 @@
-set<ll> vis;
-queue<pair<ll,ll>> q; // {t, v}
-q.push({0,1});
+set<int> vis;
+queue<int> q; // {t, v}
+q.push(0);
 
 while(!q.empty()) {
-	ll t = q.front().first;
-	ll v = q.front().second;	
+	int v = q.front();
 	q.pop();
 	
-	for (ll u : adj[v]) {
+	for (int u : adj[v]) {
 		if(!vis.count(u)) {
 			vis.insert(u);
-			q.push({t+1,u});
+			q.push(u);
 		}
 	}
 }

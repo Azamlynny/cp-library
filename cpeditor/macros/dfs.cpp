@@ -1,9 +1,9 @@
-set<ll> vis;
+set<int> vis;
 
-void dfs(vvl& adj, ll v) {
+void dfs(vvi& adj, int v) {
 	vis.insert(v);
 	
-	for (ll u : adj[v]) {
+	for (int u : adj[v]) {
 		if (!vis.count(u)) {
 			dfs(adj, u);
 		}

@@ -1,7 +1,7 @@
-void build_tree(vvl& adj, ll v, vvl& child, vl& par, set<ll>& build_vis) {
+void build_tree(vvi& adj, int v, vvi& child, vi& par, set<int>& build_vis) {
 	build_vis.insert(v);
 		
-	for (ll u : adj[v]) {
+	for (int u : adj[v]) {
 		if (!build_vis.count(u)) {
 			par[u] = v;
 			child[v].pb(u);
